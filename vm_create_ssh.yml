@@ -11,7 +11,7 @@
     resource_group: "{{ resource_group_name }}"
     vm_name: testvm
     location: eastus
-    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsbjU002j16fMWZI7ks65dKPkxSQEnGaXvRe9SQGZ1zKZZsefbFmz8bFEC2EWO0W7iV/LbykzKx9G9M5KMPsiLVrUBVkeKa01yssTAbYoukE8sbiFCwWTtGQVxFXgsosKM6y7OIIt5rkNu/nwU9OSz+VP9poH2tK3FO6EdI4qks84SOnBkfWIJRLTz5mM3ISEYb4ghQnt74Y7gzQhf2kMKDa0T8GIa4HA/+LVqUHlvkyrRuWYYNC5sAoN91HGtsSferUekgm3b4Z6jQ9AV+xC39ylgoCfozI0T/dPRV2THsp6Fs/kHp8t/FnuQV9lgd8H1hxPlgPme1TN9L9NcSXYgQ== rsa-key-20180402"
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsrEqBTMy+5QFSqor3adpIHaHiMS4lkL0UUNlCDD64Pi+k42rytN2UdvbpGyUVmbjuFsQLWNSXINWUpjtdLJaRIVkrRmfLn8iW6OZNNsKpGtit/a/qIyUw60Vn0zldczSW4HCgPGV4e6NTWRyafKPVcsS5wvjM2RQ4sgUotasgolFDu+HBBNdE/STFjEqb5XysvTiytCbIcZ8Rw3EQKYiB4AgZi1tIX/kFrpW8ZQAhKIV+U4u8qPuJLNCqkVuay67BH3qkkkWgx/6NwktsZvZcQFXN6IlMIYJBF2/+SPlefVJG7z5HSo8sXDbOy4W+wqX4YlXna4J/qb8w2q1ul00bQ== rsa-key-20200508""ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsrEqBTMy+5QFSqor3adpIHaHiMS4lkL0UUNlCDD64Pi+k42rytN2UdvbpGyUVmbjuFsQLWNSXINWUpjtdLJaRIVkrRmfLn8iW6OZNNsKpGtit/a/qIyUw60Vn0zldczSW4HCgPGV4e6NTWRyafKPVcsS5wvjM2RQ4sgUotasgolFDu+HBBNdE/STFjEqb5XysvTiytCbIcZ8Rw3EQKYiB4AgZi1tIX/kFrpW8ZQAhKIV+U4u8qPuJLNCqkVuay67BH3qkkkWgx/6NwktsZvZcQFXN6IlMIYJBF2/+SPlefVJG7z5HSo8sXDbOy4W+wqX4YlXna4J/qb8w2q1ul00bQ== rsa-key-20200508"
   tasks:
   - name: Create a resource group
     azure_rm_resourcegroup:
